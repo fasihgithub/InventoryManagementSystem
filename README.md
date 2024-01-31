@@ -1,30 +1,49 @@
-Smart Text Editor
-The Smart Text Editor is a user-friendly C++ application crafted to simplify text editing, offering adaptability and ease of modification for programmers. Its versatile platform ensures straightforward coding and implementation of changes, meeting the varied needs of users.
+Inventory Management System (C# Windows Forms)
+The Inventory Management System is a Windows Forms application built using C# that leverages database concepts for efficient inventory control. This system provides an intuitive user interface to manage inventory, track stock levels, and perform various operations seamlessly.
 
-Project Features
-1. Unique User Flow
-Distinctive user flow with word completion suggestions as users type.
-Efficient text compression for storage optimization.
-Secure encoding for confidentiality.
-2. Functionalities
-Typing Text
-Console-based module for forward typing, utilizing vector strings, iterators, and loops.
-Word Completion Suggestions
-System employing trie trees or B-trees to suggest expected word completions from a provided dictionary.
-Compression of Text
-Utilization of Huffman encoding for text compression.
-Storage of both compressed text and the compression tree for recovery.
-Saving and Loading Text
-Capability for users to save compressed text and compression tree locally.
-Option to reload files for continued editing.
-Uncompressing of Text
-Implementation of Huffman compression tree loading to decompress the text encoding and recover the original text.
-Continue Editing
-Seamless continuity for users in editing, saving, and reloading files multiple times.
+Features:
+User-Friendly Interface:
+
+Intuitive design for easy navigation and usage.
+Inventory Operations:
+
+Add, edit, and delete products from the inventory.
+Track stock levels and view product details.
+
+Database Integration:
+Utilizes a relational database for data storage and retrieval.
+
+Order Management:
+Place and manage orders for products.
 Setup Instructions
 
 Clone the Repository:
-git clone https://github.com/your-username/smart-text-editor.git
+git clone https://github.com/your-username/inventory-management-system.git
 
+Database Setup:
+Import the provided SQL file to set up the necessary database structure.
 Build and Run:
-Follow platform-specific instructions to compile and run the Smart Text Editor.
+
+Open the solution in Visual Studio.
+Ensure proper database connection configurations in the application.
+Build and run the application.
+Dependencies:
+
+Ensure that all required dependencies and libraries are installed.
+Database Configuration
+Database Name: inventory_db
+Tables: products, orders, etc.
+Usage
+
+Login:
+Log in with valid credentials to access the system.
+
+Product Management:
+Add, edit, or delete products.
+View detailed product information.
+
+Order Processing:
+Place and manage product orders.
+
+Inventory Tracking:
+Monitor stock levels and receive notifications.
