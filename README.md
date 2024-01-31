@@ -1,5 +1,4 @@
 Smart Text Editor
-
 The Smart Text Editor is a user-friendly C++ application crafted to simplify text editing, offering adaptability and ease of modification for programmers. Its versatile platform ensures straightforward coding and implementation of changes, meeting the varied needs of users.
 
 Project Features
@@ -22,16 +21,10 @@ Uncompressing of Text
 Implementation of Huffman compression tree loading to decompress the text encoding and recover the original text.
 Continue Editing
 Seamless continuity for users in editing, saving, and reloading files multiple times.
-
 Setup Instructions
+
 Clone the Repository:
 git clone https://github.com/your-username/smart-text-editor.git
 
 Build and Run:
-
 Follow platform-specific instructions to compile and run the Smart Text Editor.
-Dependencies:
-
-List any dependencies or libraries required for building and running the application.
-Configuration:
-
