@@ -1,3 +1,6 @@
+# here is my video explaining this project
+
+
 Inventory Management System (C# Windows Forms)
 The Inventory Management System is a Windows Forms application built using C# that leverages database concepts for efficient inventory control. This system provides an intuitive user interface to manage inventory, track stock levels, and perform various operations seamlessly.
 
